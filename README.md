@@ -1,5 +1,3 @@
-# ffproject2023
-Fantasy Football draft computer
 Fantasy Football Draft Computer
 
 September 4th, 2023
@@ -20,7 +18,7 @@ Data Collection:
 
 My initial methodology was to use last year's NFL player statistics with their average draft rankings. I assumed this information would be fairly easy to gather, but it turned out to be a bit of both easy and more difficult data to capture. 
 
-All of the data was sourced from sports and fantasy-related websites. In some cases, I copy and paste the data into Google Sheets directly; in other cases, I web scrape the data using a simple HTML code to copy the data from tables embedded in the webpage. 
+All of the data was sourced from sports and fantasy-related websites. In some cases, I copy and paste the data into Google Sheets directly; in other cases, I web scraped the data using a simple HTML code to copy the data from tables embedded in the webpage. 
 
 My league is hosted on Yahoo Sports, and our scoring system is set to the “half PPR” scoring system. The league has 12 teams, and the roster is set to: QB, WR, WR, RB, RB, TE, W/R/T, K, DEF, BN, BN, BN, BN, BN, BN, IR, IR.
 All the sources of data contain statistics and measurements based on past and potential performance in the upcoming NFL season. These statistics and measurements are then combined and extrapolated into categories to compute a final rating. 
